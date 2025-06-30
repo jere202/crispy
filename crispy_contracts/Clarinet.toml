@@ -5,6 +5,11 @@ authors = []
 telemetry = true
 cache_dir = '.\.cache'
 requirements = []
+[contracts.node_registry]
+path = 'contracts/node_registry.clar'
+clarity_version = 2
+epoch = 2.5
+
 [contracts.storage_with_price_oracle_update]
 path = 'contracts/storage_with_price_oracle_update.clar'
 clarity_version = 2
