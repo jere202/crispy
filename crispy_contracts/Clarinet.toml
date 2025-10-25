@@ -5,6 +5,11 @@ authors = []
 telemetry = true
 cache_dir = '.\.cache'
 requirements = []
+[contracts.multi_send_with_custom_metadata]
+path = 'contracts/multi_send_with_custom_metadata.clar'
+clarity_version = 2
+epoch = 2.5
+
 [contracts.node_registry]
 path = 'contracts/node_registry.clar'
 clarity_version = 2
