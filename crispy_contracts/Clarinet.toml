@@ -20,6 +20,11 @@ path = 'contracts/storage_with_price_oracle_update.clar'
 clarity_version = 2
 epoch = 2.5
 
+[contracts.timed_storage_update]
+path = 'contracts/timed_storage_update.clar'
+clarity_version = 2
+epoch = 2.5
+
 [contracts.voting_with_emergency_pause]
 path = 'contracts/voting_with_emergency_pause.clar'
 clarity_version = 2
